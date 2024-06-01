@@ -2,7 +2,6 @@ import { PreloadedStateShapeFromReducersMapObject, configureStore } from "@redux
 
 import { combinedReducers } from "./redux/reducers";
 
-
 function setupStore(preloadedState?: PreloadedStateShapeFromReducersMapObject<RootState>) {
     return configureStore({
         reducer: combinedReducers,
