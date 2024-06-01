@@ -1,12 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState: IproductState = {
-    name: '',
+    name: "",
     price: 0
 };
 
 export const productSlice = createSlice({
-    name: 'product',
+    name: "product",
     initialState,
     reducers: {
         setProduct: (state, action) => {

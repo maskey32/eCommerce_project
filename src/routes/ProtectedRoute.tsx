@@ -1,6 +1,6 @@
 import { useLocation, Navigate, Outlet } from "react-router-dom";
 
-const ProtectedRoute: React.FC = () => {
+const ProtectedRoute = () => {
   const location = useLocation();
   const loggedIn = true;
 

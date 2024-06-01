@@ -12,7 +12,7 @@ const routeDetails: IrouteDetails = {
       component: <NotFound />,
     }
   ],
-  secured: [],
+  secured: []
 };
 
 export default routeDetails;
