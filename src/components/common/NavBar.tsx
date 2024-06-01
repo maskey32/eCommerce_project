@@ -11,7 +11,7 @@ const handleOrder = () => {
 const NavBar = () => {
     return (
         <div className="shadow-md bg-white duration-200 relative z-40">
-            <div className="bg-primary/40 py-2">
+            <div className="bg-primary py-2">
                 <div className="container flex justify-between items-center">
                     <Logo />
                     <div className="flex justify-between items-center gap-4">
