@@ -16,17 +16,14 @@ const NavBar = () => {
                     <Logo />
                     <div className="flex justify-between items-center gap-4">
                         <SearchBar />
-                        <Button 
-                            handleClick={handleOrder}
-                            render={() => (
-                                <>
-                                    <span className="group-hover:block hidden transition-all duration-200">Order</span>
-                                    <FaCartShopping 
-                                        className="text-xl text-white drop-shadow-sm cursor-pointer"
-                                    />
-                                </>
-                            )}
-                        />
+                        <Button handleClick={handleOrder}>
+                            <>
+                                <span className="group-hover:block hidden transition-all duration-200">Order</span>
+                                <FaCartShopping 
+                                    className="text-xl text-white drop-shadow-sm cursor-pointer"
+                                />
+                            </>
+                        </Button>
                     </div>
                 </div>
             </div>
