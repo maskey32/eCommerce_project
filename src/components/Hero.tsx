@@ -14,9 +14,11 @@ const Hero = () => {
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia dolore modi esse dignissimos. Omnis tempora quasi consectetur in commodi.
                             </p>
                             <div>
-                                <Button handleClick={() => {}}>
-                                    Order Now
-                                </Button>
+                                <a href="#products">
+                                    <Button handleClick={() => {}}>
+                                        Order Now
+                                    </Button>
+                                </a>
                             </div>
                         </div>
                         <div className="order-1 sm:order-2">

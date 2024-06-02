@@ -2,7 +2,7 @@ import ProductsListing from "./ProductsListing";
 
 const Products = () => {
     return (
-        <div className="mt-14 mb-12">
+        <div id="products" className="mt-14 mb-12">
             <div className="container">
                 <div className="text-center mb-24  max-w-[600px] mx-auto">
                     <p className="text-sm text-primary">Available Products</p>
