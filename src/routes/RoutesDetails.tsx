@@ -1,5 +1,6 @@
 import Home from "../views/Home";
 import NotFound from "../views/NotFound";
+import ProductDetails from "../views/ProductDetails";
 
 const routeDetails: IrouteDetails = {
   default: [
@@ -10,6 +11,10 @@ const routeDetails: IrouteDetails = {
     {
       path: "*",
       component: <NotFound />,
+    },
+    {
+      path: "/product-details/:id",
+      component: <ProductDetails />,
     }
   ],
   secured: []

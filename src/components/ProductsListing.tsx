@@ -1,4 +1,5 @@
 import { FaCartShopping } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 import { Iproduct } from "../types/components";
 import HeroImage from "../assets/shoppingImage.png";
@@ -27,12 +28,11 @@ const ProductsListing = () => {
                         >
                             ₦{product.price}
                         </p>
-                        <button 
-                            className="mb-4 text-sm hover:text-secondary"
-                            onClick={() => {}}
-                        >
-                            More Details
-                        </button>
+                        <div className="mb-4 text-sm hover:text-secondary">
+                            <Link to={`/product-details/${product.id}`}>
+                                More Details
+                            </Link>
+                        </div>
                         <Button handleClick={() => {}}>
                             Add to Cart
                             <FaCartShopping 
