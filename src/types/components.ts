@@ -2,6 +2,12 @@ import { ReactNode } from "react";
 
 export interface IButtonProps {
     handleClick: () => void;
-    render?: () => ReactNode;
-    text?: string;
+    children: ReactNode;
 };
+
+export interface Iproduct {
+    id: number;
+    name: string;
+    price: number;
+    description: string;
+}
